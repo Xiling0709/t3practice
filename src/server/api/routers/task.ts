@@ -7,6 +7,6 @@ import toggleCompleted from "./taskHelpers/toggleCompleted";
 export const taskRouter = createTRPCRouter({
   index: showTasks,
   create: createTask,
-  delete: deleteTask,
+  // delete: deleteTask,
   toggleCompleted: toggleCompleted,
 });
